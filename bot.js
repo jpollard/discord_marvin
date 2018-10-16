@@ -36,6 +36,12 @@ bot.on('message', function (user, userID, channelID, message, evt){
           message: 'Pong!'
         });
       break;
+      case 'uptime':
+        bot.sendMessage({
+          to: channelID,
+          message: 'something'
+        });
+      break;
     }
   }
 });
