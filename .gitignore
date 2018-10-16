@@ -1,6 +1,7 @@
 # Ignore vscode remoteftp settings file
 .ftpconfig
 .ftpignore
+auth.json
 
 # Logs
 logs
